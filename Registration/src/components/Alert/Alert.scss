@@ -1,0 +1,23 @@
+.alertContainer {
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.38;
+  text-align: center;
+  border-radius: 12px;
+
+  &.error {
+    color: #dd1d00;
+    background-color: #fff4f0;
+  }
+
+  &.info {
+    color: #074eb8;
+    background-color: #ebf2ff;
+  }
+
+  &.success {
+    color: #52c41a;
+    background-color: #e9ffd7;
+  }
+}

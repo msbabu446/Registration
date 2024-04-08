@@ -1,0 +1,30 @@
+.workInfoWrapper {
+  @media screen and (min-width: 940px) {
+    width: 60%;
+  }
+
+  .title {
+    font-size: 24px;
+    text-align: left;
+  }
+
+  .dateContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+
+    @media screen and (min-width: 940px) {
+      flex-direction: row;
+    }
+
+    .formGroup {
+      margin: 0;
+      flex: 1;
+    }
+  }
+
+  .formGroup {
+    margin: 20px 0;
+  }
+}

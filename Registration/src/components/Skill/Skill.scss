@@ -1,0 +1,41 @@
+.skillInfoWrapper {
+  @media screen and (min-width: 940px) {
+    width: 60%;
+  }
+
+  .title {
+    font-size: 24px;
+    text-align: left;
+  }
+
+  //   .skillContainer {
+  //     display: flex;
+  //     flex-direction: column;
+  //     justify-content: space-between;
+  //     gap: 24px;
+
+  //     @media screen and (min-width: 940px) {
+  //       flex-direction: row;
+  //     }
+
+  //     .formGroup {
+  //       margin: 0;
+  //       flex: 1;
+  //     }
+  //   }
+
+  .skillInfoFormContainer {
+    display: flex;
+    gap: 24px;
+
+    .fields {
+      display: flex;
+      gap: 24px;
+    }
+  }
+
+  .skillBtnContainer {
+    display: flex;
+    gap: 24px;
+  }
+}

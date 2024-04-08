@@ -1,0 +1,21 @@
+.educationInfoWrapper {
+  @media screen and (min-width: 940px) {
+    width: 60%;
+  }
+
+  .title {
+    font-size: 24px;
+    text-align: left;
+  }
+
+  .eduContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+
+    @media screen and (min-width: 940px) {
+      flex-direction: row;
+    }
+  }
+}

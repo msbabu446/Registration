@@ -1,0 +1,27 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 12px 16px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #15181d;
+
+  @media screen and (min-width: 940px) {
+    padding: 12px 24px;
+  }
+
+  .logo {
+    width: 180px;
+    height: 54px;
+    flex-shrink: 0;
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+}

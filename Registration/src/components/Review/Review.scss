@@ -1,0 +1,27 @@
+.reviewWrapper {
+  @media screen and (min-width: 940px) {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  table {
+    border-collapse: collapse;
+    border: 1px solid #dddddd;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  td,
+  tr {
+    border: 1px solid #dddddd;
+    text-align: left;
+  }
+  td,
+  th {
+    padding: 10px;
+  }
+
+  .alignCenter {
+    text-align: center;
+  }
+}
